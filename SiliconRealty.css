@@ -1,0 +1,236 @@
+header {
+  background-color: #ffffff;
+  border-bottom: 4px solid #2f42b1;
+  padding: 10px;
+  text-align: center; /* center the buttons */
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.logo img {
+  height: 150px;
+  margin-right: 10px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* vertically center the items */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 21px;
+  border-radius: 5px;
+  height: 75px; /* half the height of the logo */
+  line-height: 75px; /* center the text vertically */
+}
+
+nav li.left {
+  float: left;
+}
+
+nav li.right {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  padding: 0 15px; /* reduce padding to make the buttons smaller */
+  color: #000000; /* change the text color */
+  font-size: 20px;
+  text-decoration: none;
+  border: 1px solid #2f42b1; /* add a border */
+}
+
+nav li a:hover {
+  background-color: #5784be;
+  color: #ffffff;
+}
+
+body {
+  padding: 0;
+}
+.search-bar {
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: 800px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.search-bar {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.search-bar form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  max-width: 600px;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-bar button[type="submit"] {
+  background-color: #2f42b1;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-bar button[type="submit"]:hover {
+  background-color: #5784be;
+}
+
+.background-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-image: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center 20% !important;
+  height: calc(100vh - 75px);
+}
+
+.trending-box {
+  position: absolute;
+  top: 110%;
+  left: 1%;
+  background-color: #009df8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.trending-box p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.login-page {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color:#ffffff;
+}
+
+.form {
+  position: relative;
+  background-color: #f2f2f2;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form input {
+  margin-bottom: 20px;
+}
+
+form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #2f42b1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-size: 16px;
+  text-align: left !important;
+}
+
+
+input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="password"]:valid {
+  background-color: #eee;
+}
+
+input[type="submit"] {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  background-color: #2f42b1;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #5784be;
+}
+
+.new-user{
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signup {
+  width: 100%;
+  padding: 22px;
+  margin: 1 auto;
+  background-color:#ffffff;
+}
