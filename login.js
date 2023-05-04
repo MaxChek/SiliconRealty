@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAfYg_CV748FmCJeJS-g0IIXOeK2i5-w-c",
-  authDomain: "siliconrealtylogin.firebaseapp.com",
-  databaseURL: "https://siliconrealtylogin-default-rtdb.firebaseio.com",
-  projectId: "siliconrealtylogin",
-  storageBucket: "siliconrealtylogin.appspot.com",
-  messagingSenderId: "928412067483",
-  appId: "1:928412067483:web:437211ee42aae99167c83e"s
+  apiKey: "AIzaSyALl1u_n2A6niOVFmzCgLFKh3ZPnFoioW0",
+  authDomain: "siliconrealty-f5f46.firebaseapp.com",
+  projectId: "siliconrealty-f5f46",
+  databaseURL: "https://siliconrealty-f5f46-default-rtdb.firebaseio.com/",
+  storageBucket: "siliconrealty-f5f46.appspot.com",
+  messagingSenderId: "331159703788",
+  appId: "1:331159703788:web:effc39011af0c4f3b715c9"
 };
 const app = firebase.initializeApp(firebaseConfig);
 const dbRef = firebase.database().ref();
