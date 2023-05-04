@@ -26,17 +26,6 @@
         </ul>
       </nav>
     </header>
-    <div class="login-page">
-      <form class="form" method="POST" action="SiliconRealtyHome.html">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required maxlength="30" placeholder="Enter email"/>
-
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required placeholder="Enter password"/>
-
-        <input type="submit" value="Login" />
-      </form>
-    </div>
     <div class="new-user">
       <p>New User? Sign up here:</p>
     </div>
@@ -48,9 +37,14 @@
         <label for="password">Password</label>
         <input type="password" id="password" name="password" required placeholder="Create password"/>
 
-        <input type="submit" value="Sign-Up" onclick="send()"/>
+        <input type="submit" value="Sign-Up" onclick="send(); registrationReceived()"/>
       </form>
     </div>
+    <script>
+      function registrationReceived() {
+        alert("Registration info received!");
+      }
+    </script>
     <img src="https://imgs.search.brave.com/CyHLZa_pkITtpZDsQkM9CW_uLDCSnVqslURmiw-4Gq8/rs:fit:1200:400:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Q3LzFk/LzE3L2Q3MWQxNzRh/MGY1NzIxOWU2MjQz/MmIzZWFhMTQwMTI1/LnBuZw" 
     alt="Banner" style="position: absolute; width: 100vw;">
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
