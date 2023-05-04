@@ -3,11 +3,10 @@
   padding: 0;
 }
 body{
-  background: #55ffe5;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
 }
-.container{
+.aboutform{
   width: 80%;
   margin: 50px auto;
 }
@@ -28,7 +27,7 @@ body{
 h1{
   margin-bottom: 10px;
 }
-.container p{
+.aboutform p{
   margin-bottom: 40px;
 }
 .input-row{
