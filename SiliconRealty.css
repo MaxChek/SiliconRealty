@@ -1,47 +1,65 @@
 header {
-  background-color: #ffffff;
-  border-bottom: 4px solid #2f42b1;
-  padding: 10px;
-  text-align: center; /* center the buttons */
+background-color: #ffffff;
+border-bottom: 4px solid #2f42b1;
+padding: 10px;
+padding-bottom: 0px;
+text-align: center;
 }
 
 .logo {
-  margin: 0 auto;
+margin: 0 auto;
+  
 }
 
 .logo img {
-  height: 150px;
-  margin-right: 10px;
+height: 150px;
+margin-right: center;
+margin: 0 auto;
 }
 
 
 nav {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* vertically center the items */
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
 }
 
 nav li {
-  display: inline-block;
-  margin-right: 21px;
-  border-radius: 5px;
-  height: 75px; /* half the height of the logo */
-  line-height: 75px; /* center the text vertically */
+display: inline-block;
+margin-right: 21px;
+border-radius: 5px;
+height: 75px;
+line-height: 75px;
 }
 
 nav li.left {
-  float: left;
+float: left;
 }
 
 nav li.right {
-  float: right;
+float: right;
+}
+
+nav li a {
+display: block;
+padding: 0 15px;
+color: #000000;
+font-size: 20px;
+text-decoration: none;
+border: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li a:hover {
+color: #2f42b1;
+cursor: pointer;
 }
 
 nav li a {
