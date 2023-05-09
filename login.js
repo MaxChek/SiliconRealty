@@ -23,16 +23,15 @@ password: password,
 }
 function send1(){
   var name = document.getElementByID("name").value;
-  /*
   var phone = document.getElementByID("phone").value;
   var email = document.getElementById("email").value;
   var subject = document.getElementById("subject").value;
-  var message = document.getElementByID("message").value; */
+  var message = document.getElementByID("message").value;
   detailsRef.push().set({
   name: name,
- /* phone: phone,
+  phone: phone,
   email: email,
   subject: subject,
-  message: message, */
+  message: message,
 });
 }
